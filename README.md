@@ -153,3 +153,14 @@ Coverage is 98%.
 
 Per-process file attribution, a trusted-program allow-list, honeyfile (canary) detection,
 email or webhook alerts, and a gradual response that pauses a suspect process.
+
+## Screenshots
+
+Dashboard overview (event, alert and incident totals, CPU and entropy charts):
+
+![Dashboard overview](docs/screenshots/dashboard-overview.png)
+
+Detection of the simulated attack inside Docker (Warning, then Critical, with the
+renames to `.locked` at entropy 7.99):
+
+![Dashboard alerts and events](docs/screenshots/dashboard-alerts.png)
