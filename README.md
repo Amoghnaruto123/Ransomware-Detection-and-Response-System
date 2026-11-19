@@ -40,6 +40,8 @@ never modified or deleted. All weights and thresholds live in `config.yaml`.
 
 ## Architecture
 
+![RDRS System Architecture](docs/screenshots/rdrs-architecture.png)
+
     watch  ->  store  ->  analyse  ->  score  ->  respond  ->  show
     (watchdog  (SQLite)   (60 s       (weighted   (alerts,     (REST API,
      + psutil)             window)     rules)      incidents,   dashboard,
@@ -156,6 +158,8 @@ email or webhook alerts, and a gradual response that pauses a suspect process.
 
 ## Screenshots
 
+[View RDRS System Architecture](docs/screenshots/rdrs-architecture.png)
+
 Dashboard overview (event, alert and incident totals, CPU and entropy charts):
 
 ![Dashboard overview](docs/screenshots/dashboard-overview.png)
@@ -164,3 +168,4 @@ Detection of the simulated attack inside Docker (Warning, then Critical, with th
 renames to `.locked` at entropy 7.99):
 
 ![Dashboard alerts and events](docs/screenshots/dashboard-alerts.png)
+
