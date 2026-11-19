@@ -1,0 +1,268 @@
+section,time,item,detail
+summary,2026-11-17T12:17:51.990734,incident_id,3
+summary,2026-11-17T12:17:51.990734,threat_level,Critical
+summary,2026-11-17T12:17:51.990734,threat_score,80
+summary,2026-11-17T12:17:51.990734,status,open
+summary,2026-11-17T12:17:51.990734,suspect_process,python.exe
+summary,2026-11-17T12:17:51.990734,evidence_dir,D:\Projects\rdrs\data\quarantine\incident_3_20261117_121751
+signal,2026-11-17T12:17:51.990734,rapid_encryption,40 points
+signal,2026-11-17T12:17:51.990734,mass_rename,30 points
+signal,2026-11-17T12:17:51.990734,unknown_program,10 points
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_0.locked,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_1.locked,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_10.locked,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_11.locked,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_12.locked,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_13.locked,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_14.locked,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_15.locked,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_16.locked,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_17.locked,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_18.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_19.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_2.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_20.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_21.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_22.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_23.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_24.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_25.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_26.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_27.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_28.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_29.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_3.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_30.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_31.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_32.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_33.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_34.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_35.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_36.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_37.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_38.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_39.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_4.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_40.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_41.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_42.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_43.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_44.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_45.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_46.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_47.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_48.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_49.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_5.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_6.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_7.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_8.txt,
+affected_file,2026-11-17T12:17:51.990734,D:\Projects\rdrs\data\sandbox\file_9.txt,
+timeline,2026-11-17T12:17:45.400783,created: D:\Projects\rdrs\data\sandbox\file_0.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.416221,modified: D:\Projects\rdrs\data\sandbox\file_0.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.422170,created: D:\Projects\rdrs\data\sandbox\file_1.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.428259,modified: D:\Projects\rdrs\data\sandbox\file_1.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.433620,created: D:\Projects\rdrs\data\sandbox\file_2.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.441333,modified: D:\Projects\rdrs\data\sandbox\file_2.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.446737,created: D:\Projects\rdrs\data\sandbox\file_3.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.453890,modified: D:\Projects\rdrs\data\sandbox\file_3.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.459234,created: D:\Projects\rdrs\data\sandbox\file_4.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.465311,modified: D:\Projects\rdrs\data\sandbox\file_4.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.471083,created: D:\Projects\rdrs\data\sandbox\file_5.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.476955,modified: D:\Projects\rdrs\data\sandbox\file_5.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.482263,created: D:\Projects\rdrs\data\sandbox\file_6.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.489666,modified: D:\Projects\rdrs\data\sandbox\file_6.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.494953,created: D:\Projects\rdrs\data\sandbox\file_7.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.501322,modified: D:\Projects\rdrs\data\sandbox\file_7.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.506249,created: D:\Projects\rdrs\data\sandbox\file_8.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.512085,modified: D:\Projects\rdrs\data\sandbox\file_8.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.517540,created: D:\Projects\rdrs\data\sandbox\file_9.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.523654,modified: D:\Projects\rdrs\data\sandbox\file_9.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.529026,created: D:\Projects\rdrs\data\sandbox\file_10.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.535845,modified: D:\Projects\rdrs\data\sandbox\file_10.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.540857,created: D:\Projects\rdrs\data\sandbox\file_11.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.547543,modified: D:\Projects\rdrs\data\sandbox\file_11.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.552748,created: D:\Projects\rdrs\data\sandbox\file_12.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.558896,modified: D:\Projects\rdrs\data\sandbox\file_12.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.564612,created: D:\Projects\rdrs\data\sandbox\file_13.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.570658,modified: D:\Projects\rdrs\data\sandbox\file_13.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.577029,created: D:\Projects\rdrs\data\sandbox\file_14.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.583698,modified: D:\Projects\rdrs\data\sandbox\file_14.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.588769,created: D:\Projects\rdrs\data\sandbox\file_15.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.595635,modified: D:\Projects\rdrs\data\sandbox\file_15.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.600926,created: D:\Projects\rdrs\data\sandbox\file_16.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.606847,modified: D:\Projects\rdrs\data\sandbox\file_16.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.612426,created: D:\Projects\rdrs\data\sandbox\file_17.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.618343,modified: D:\Projects\rdrs\data\sandbox\file_17.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.623323,created: D:\Projects\rdrs\data\sandbox\file_18.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.629922,modified: D:\Projects\rdrs\data\sandbox\file_18.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.635264,created: D:\Projects\rdrs\data\sandbox\file_19.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.649218,modified: D:\Projects\rdrs\data\sandbox\file_19.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.654492,created: D:\Projects\rdrs\data\sandbox\file_20.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.661687,modified: D:\Projects\rdrs\data\sandbox\file_20.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.667371,created: D:\Projects\rdrs\data\sandbox\file_21.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.674233,modified: D:\Projects\rdrs\data\sandbox\file_21.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.679799,created: D:\Projects\rdrs\data\sandbox\file_22.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.686034,modified: D:\Projects\rdrs\data\sandbox\file_22.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.692172,created: D:\Projects\rdrs\data\sandbox\file_23.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.698281,modified: D:\Projects\rdrs\data\sandbox\file_23.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.704342,created: D:\Projects\rdrs\data\sandbox\file_24.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.710623,modified: D:\Projects\rdrs\data\sandbox\file_24.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.716619,created: D:\Projects\rdrs\data\sandbox\file_25.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.723461,modified: D:\Projects\rdrs\data\sandbox\file_25.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.729158,created: D:\Projects\rdrs\data\sandbox\file_26.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.736494,modified: D:\Projects\rdrs\data\sandbox\file_26.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.742607,created: D:\Projects\rdrs\data\sandbox\file_27.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.750300,modified: D:\Projects\rdrs\data\sandbox\file_27.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.755624,created: D:\Projects\rdrs\data\sandbox\file_28.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.761909,modified: D:\Projects\rdrs\data\sandbox\file_28.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.767705,created: D:\Projects\rdrs\data\sandbox\file_29.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.774465,modified: D:\Projects\rdrs\data\sandbox\file_29.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.780647,created: D:\Projects\rdrs\data\sandbox\file_30.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.787161,modified: D:\Projects\rdrs\data\sandbox\file_30.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.792878,created: D:\Projects\rdrs\data\sandbox\file_31.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.799558,modified: D:\Projects\rdrs\data\sandbox\file_31.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.805081,created: D:\Projects\rdrs\data\sandbox\file_32.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.811381,modified: D:\Projects\rdrs\data\sandbox\file_32.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.816819,created: D:\Projects\rdrs\data\sandbox\file_33.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.822919,modified: D:\Projects\rdrs\data\sandbox\file_33.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.828814,created: D:\Projects\rdrs\data\sandbox\file_34.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.835092,modified: D:\Projects\rdrs\data\sandbox\file_34.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.840940,created: D:\Projects\rdrs\data\sandbox\file_35.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.847556,modified: D:\Projects\rdrs\data\sandbox\file_35.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.853286,created: D:\Projects\rdrs\data\sandbox\file_36.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.860589,modified: D:\Projects\rdrs\data\sandbox\file_36.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.866606,created: D:\Projects\rdrs\data\sandbox\file_37.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.874299,modified: D:\Projects\rdrs\data\sandbox\file_37.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.880040,created: D:\Projects\rdrs\data\sandbox\file_38.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.886675,modified: D:\Projects\rdrs\data\sandbox\file_38.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.893361,created: D:\Projects\rdrs\data\sandbox\file_39.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.900199,modified: D:\Projects\rdrs\data\sandbox\file_39.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.906347,created: D:\Projects\rdrs\data\sandbox\file_40.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.913077,modified: D:\Projects\rdrs\data\sandbox\file_40.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.918961,created: D:\Projects\rdrs\data\sandbox\file_41.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.926465,modified: D:\Projects\rdrs\data\sandbox\file_41.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.931999,created: D:\Projects\rdrs\data\sandbox\file_42.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.938405,modified: D:\Projects\rdrs\data\sandbox\file_42.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.943029,created: D:\Projects\rdrs\data\sandbox\file_43.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.948678,modified: D:\Projects\rdrs\data\sandbox\file_43.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.954439,created: D:\Projects\rdrs\data\sandbox\file_44.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.960656,modified: D:\Projects\rdrs\data\sandbox\file_44.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.966267,created: D:\Projects\rdrs\data\sandbox\file_45.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.972412,modified: D:\Projects\rdrs\data\sandbox\file_45.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.977089,created: D:\Projects\rdrs\data\sandbox\file_46.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.983558,modified: D:\Projects\rdrs\data\sandbox\file_46.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.988464,created: D:\Projects\rdrs\data\sandbox\file_47.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.994579,modified: D:\Projects\rdrs\data\sandbox\file_47.txt,entropy=3.41
+timeline,2026-11-17T12:17:45.999992,created: D:\Projects\rdrs\data\sandbox\file_48.txt,entropy=3.41
+timeline,2026-11-17T12:17:46.005881,modified: D:\Projects\rdrs\data\sandbox\file_48.txt,entropy=3.41
+timeline,2026-11-17T12:17:46.011447,created: D:\Projects\rdrs\data\sandbox\file_49.txt,entropy=3.41
+timeline,2026-11-17T12:17:46.018345,modified: D:\Projects\rdrs\data\sandbox\file_49.txt,entropy=3.41
+timeline,2026-11-17T12:17:48.421652,modified: D:\Projects\rdrs\data\sandbox\file_0.txt,
+timeline,2026-11-17T12:17:48.728253,modified: D:\Projects\rdrs\data\sandbox\file_0.txt,
+timeline,2026-11-17T12:17:49.034683,moved: D:\Projects\rdrs\data\sandbox\file_0.txt -> D:\Projects\rdrs\data\sandbox\file_0.locked,entropy=7.99
+timeline,2026-11-17T12:17:49.045383,modified: D:\Projects\rdrs\data\sandbox\file_1.txt,
+timeline,2026-11-17T12:17:49.352626,moved: D:\Projects\rdrs\data\sandbox\file_1.txt -> D:\Projects\rdrs\data\sandbox\file_1.locked,entropy=7.99
+timeline,2026-11-17T12:17:49.365341,modified: D:\Projects\rdrs\data\sandbox\file_10.txt,
+timeline,2026-11-17T12:17:49.672902,moved: D:\Projects\rdrs\data\sandbox\file_10.txt -> D:\Projects\rdrs\data\sandbox\file_10.locked,entropy=7.99
+timeline,2026-11-17T12:17:49.686465,modified: D:\Projects\rdrs\data\sandbox\file_11.txt,
+timeline,2026-11-17T12:17:49.992804,moved: D:\Projects\rdrs\data\sandbox\file_11.txt -> D:\Projects\rdrs\data\sandbox\file_11.locked,entropy=7.99
+timeline,2026-11-17T12:17:50.006221,modified: D:\Projects\rdrs\data\sandbox\file_12.txt,
+timeline,2026-11-17T12:17:50.312948,moved: D:\Projects\rdrs\data\sandbox\file_12.txt -> D:\Projects\rdrs\data\sandbox\file_12.locked,entropy=7.99
+timeline,2026-11-17T12:17:50.325603,modified: D:\Projects\rdrs\data\sandbox\file_13.txt,
+timeline,2026-11-17T12:17:50.643194,moved: D:\Projects\rdrs\data\sandbox\file_13.txt -> D:\Projects\rdrs\data\sandbox\file_13.locked,entropy=7.99
+timeline,2026-11-17T12:17:50.655634,modified: D:\Projects\rdrs\data\sandbox\file_14.txt,
+timeline,2026-11-17T12:17:50.979017,moved: D:\Projects\rdrs\data\sandbox\file_14.txt -> D:\Projects\rdrs\data\sandbox\file_14.locked,entropy=7.99
+timeline,2026-11-17T12:17:50.998536,modified: D:\Projects\rdrs\data\sandbox\file_15.txt,
+timeline,2026-11-17T12:17:51.315686,moved: D:\Projects\rdrs\data\sandbox\file_15.txt -> D:\Projects\rdrs\data\sandbox\file_15.locked,entropy=7.99
+timeline,2026-11-17T12:17:51.329857,modified: D:\Projects\rdrs\data\sandbox\file_16.txt,
+timeline,2026-11-17T12:17:51.651795,moved: D:\Projects\rdrs\data\sandbox\file_16.txt -> D:\Projects\rdrs\data\sandbox\file_16.locked,entropy=7.99
+timeline,2026-11-17T12:17:51.669443,modified: D:\Projects\rdrs\data\sandbox\file_17.txt,
+timeline,2026-11-17T12:17:51.977298,moved: D:\Projects\rdrs\data\sandbox\file_17.txt -> D:\Projects\rdrs\data\sandbox\file_17.locked,entropy=7.99
+timeline,2026-11-17T12:17:52.019076,modified: D:\Projects\rdrs\data\sandbox\file_18.txt,
+timeline,2026-11-17T12:17:52.337413,moved: D:\Projects\rdrs\data\sandbox\file_18.txt -> D:\Projects\rdrs\data\sandbox\file_18.locked,entropy=7.99
+timeline,2026-11-17T12:17:52.350991,modified: D:\Projects\rdrs\data\sandbox\file_19.txt,
+timeline,2026-11-17T12:17:52.668213,moved: D:\Projects\rdrs\data\sandbox\file_19.txt -> D:\Projects\rdrs\data\sandbox\file_19.locked,entropy=7.99
+timeline,2026-11-17T12:17:52.681113,modified: D:\Projects\rdrs\data\sandbox\file_2.txt,
+timeline,2026-11-17T12:17:52.998806,moved: D:\Projects\rdrs\data\sandbox\file_2.txt -> D:\Projects\rdrs\data\sandbox\file_2.locked,entropy=7.99
+timeline,2026-11-17T12:17:53.012098,modified: D:\Projects\rdrs\data\sandbox\file_20.txt,
+timeline,2026-11-17T12:17:53.330278,moved: D:\Projects\rdrs\data\sandbox\file_20.txt -> D:\Projects\rdrs\data\sandbox\file_20.locked,entropy=7.99
+timeline,2026-11-17T12:17:53.343478,modified: D:\Projects\rdrs\data\sandbox\file_21.txt,
+timeline,2026-11-17T12:17:53.661160,moved: D:\Projects\rdrs\data\sandbox\file_21.txt -> D:\Projects\rdrs\data\sandbox\file_21.locked,entropy=7.99
+timeline,2026-11-17T12:17:53.672667,modified: D:\Projects\rdrs\data\sandbox\file_22.txt,
+timeline,2026-11-17T12:17:54.017053,moved: D:\Projects\rdrs\data\sandbox\file_22.txt -> D:\Projects\rdrs\data\sandbox\file_22.locked,entropy=7.99
+timeline,2026-11-17T12:17:54.140036,modified: D:\Projects\rdrs\data\sandbox\file_23.txt,
+timeline,2026-11-17T12:17:54.525030,moved: D:\Projects\rdrs\data\sandbox\file_23.txt -> D:\Projects\rdrs\data\sandbox\file_23.locked,entropy=7.99
+timeline,2026-11-17T12:17:54.536822,modified: D:\Projects\rdrs\data\sandbox\file_24.txt,
+timeline,2026-11-17T12:17:54.854298,moved: D:\Projects\rdrs\data\sandbox\file_24.txt -> D:\Projects\rdrs\data\sandbox\file_24.locked,entropy=7.99
+timeline,2026-11-17T12:17:54.866239,modified: D:\Projects\rdrs\data\sandbox\file_25.txt,
+timeline,2026-11-17T12:17:55.310041,moved: D:\Projects\rdrs\data\sandbox\file_25.txt -> D:\Projects\rdrs\data\sandbox\file_25.locked,entropy=7.99
+timeline,2026-11-17T12:17:55.436566,modified: D:\Projects\rdrs\data\sandbox\file_26.txt,
+timeline,2026-11-17T12:17:55.808387,moved: D:\Projects\rdrs\data\sandbox\file_26.txt -> D:\Projects\rdrs\data\sandbox\file_26.locked,entropy=7.99
+timeline,2026-11-17T12:17:55.822256,modified: D:\Projects\rdrs\data\sandbox\file_27.txt,
+timeline,2026-11-17T12:17:56.141280,moved: D:\Projects\rdrs\data\sandbox\file_27.txt -> D:\Projects\rdrs\data\sandbox\file_27.locked,entropy=7.99
+timeline,2026-11-17T12:17:56.153409,modified: D:\Projects\rdrs\data\sandbox\file_28.txt,
+timeline,2026-11-17T12:17:56.471574,moved: D:\Projects\rdrs\data\sandbox\file_28.txt -> D:\Projects\rdrs\data\sandbox\file_28.locked,entropy=7.99
+timeline,2026-11-17T12:17:56.484796,modified: D:\Projects\rdrs\data\sandbox\file_29.txt,
+timeline,2026-11-17T12:17:56.791448,moved: D:\Projects\rdrs\data\sandbox\file_29.txt -> D:\Projects\rdrs\data\sandbox\file_29.locked,entropy=7.99
+timeline,2026-11-17T12:17:56.803987,modified: D:\Projects\rdrs\data\sandbox\file_3.txt,
+timeline,2026-11-17T12:17:57.123147,moved: D:\Projects\rdrs\data\sandbox\file_3.txt -> D:\Projects\rdrs\data\sandbox\file_3.locked,entropy=7.99
+timeline,2026-11-17T12:17:57.140324,modified: D:\Projects\rdrs\data\sandbox\file_30.txt,
+timeline,2026-11-17T12:17:57.458831,moved: D:\Projects\rdrs\data\sandbox\file_30.txt -> D:\Projects\rdrs\data\sandbox\file_30.locked,entropy=7.99
+timeline,2026-11-17T12:17:57.471744,modified: D:\Projects\rdrs\data\sandbox\file_31.txt,
+timeline,2026-11-17T12:17:57.779433,moved: D:\Projects\rdrs\data\sandbox\file_31.txt -> D:\Projects\rdrs\data\sandbox\file_31.locked,entropy=7.99
+timeline,2026-11-17T12:17:57.791012,modified: D:\Projects\rdrs\data\sandbox\file_32.txt,
+timeline,2026-11-17T12:17:58.116986,moved: D:\Projects\rdrs\data\sandbox\file_32.txt -> D:\Projects\rdrs\data\sandbox\file_32.locked,entropy=7.99
+timeline,2026-11-17T12:17:58.143107,modified: D:\Projects\rdrs\data\sandbox\file_33.txt,
+timeline,2026-11-17T12:17:58.450963,moved: D:\Projects\rdrs\data\sandbox\file_33.txt -> D:\Projects\rdrs\data\sandbox\file_33.locked,entropy=7.99
+timeline,2026-11-17T12:17:58.463587,modified: D:\Projects\rdrs\data\sandbox\file_34.txt,
+timeline,2026-11-17T12:17:58.771702,moved: D:\Projects\rdrs\data\sandbox\file_34.txt -> D:\Projects\rdrs\data\sandbox\file_34.locked,entropy=7.99
+timeline,2026-11-17T12:17:58.784984,modified: D:\Projects\rdrs\data\sandbox\file_35.txt,
+timeline,2026-11-17T12:17:59.102919,moved: D:\Projects\rdrs\data\sandbox\file_35.txt -> D:\Projects\rdrs\data\sandbox\file_35.locked,entropy=7.99
+timeline,2026-11-17T12:17:59.114298,modified: D:\Projects\rdrs\data\sandbox\file_36.txt,
+timeline,2026-11-17T12:17:59.422072,moved: D:\Projects\rdrs\data\sandbox\file_36.txt -> D:\Projects\rdrs\data\sandbox\file_36.locked,entropy=7.99
+timeline,2026-11-17T12:17:59.435797,modified: D:\Projects\rdrs\data\sandbox\file_37.txt,
+timeline,2026-11-17T12:17:59.754441,moved: D:\Projects\rdrs\data\sandbox\file_37.txt -> D:\Projects\rdrs\data\sandbox\file_37.locked,entropy=7.99
+timeline,2026-11-17T12:17:59.766014,modified: D:\Projects\rdrs\data\sandbox\file_38.txt,
+timeline,2026-11-17T12:18:00.085700,moved: D:\Projects\rdrs\data\sandbox\file_38.txt -> D:\Projects\rdrs\data\sandbox\file_38.locked,entropy=7.99
+timeline,2026-11-17T12:18:00.100885,modified: D:\Projects\rdrs\data\sandbox\file_39.txt,
+timeline,2026-11-17T12:18:00.418547,moved: D:\Projects\rdrs\data\sandbox\file_39.txt -> D:\Projects\rdrs\data\sandbox\file_39.locked,entropy=7.99
+timeline,2026-11-17T12:18:00.430332,modified: D:\Projects\rdrs\data\sandbox\file_4.txt,
+timeline,2026-11-17T12:18:00.737284,moved: D:\Projects\rdrs\data\sandbox\file_4.txt -> D:\Projects\rdrs\data\sandbox\file_4.locked,entropy=7.99
+timeline,2026-11-17T12:18:00.749869,modified: D:\Projects\rdrs\data\sandbox\file_40.txt,
+timeline,2026-11-17T12:18:01.059243,moved: D:\Projects\rdrs\data\sandbox\file_40.txt -> D:\Projects\rdrs\data\sandbox\file_40.locked,entropy=7.99
+timeline,2026-11-17T12:18:01.073029,modified: D:\Projects\rdrs\data\sandbox\file_41.txt,
+timeline,2026-11-17T12:18:01.390664,moved: D:\Projects\rdrs\data\sandbox\file_41.txt -> D:\Projects\rdrs\data\sandbox\file_41.locked,entropy=7.99
+timeline,2026-11-17T12:18:01.402667,modified: D:\Projects\rdrs\data\sandbox\file_42.txt,
+timeline,2026-11-17T12:18:01.726991,moved: D:\Projects\rdrs\data\sandbox\file_42.txt -> D:\Projects\rdrs\data\sandbox\file_42.locked,entropy=7.99
+timeline,2026-11-17T12:18:01.741604,modified: D:\Projects\rdrs\data\sandbox\file_43.txt,
+timeline,2026-11-17T12:18:02.049132,moved: D:\Projects\rdrs\data\sandbox\file_43.txt -> D:\Projects\rdrs\data\sandbox\file_43.locked,entropy=7.99
+timeline,2026-11-17T12:18:02.062102,modified: D:\Projects\rdrs\data\sandbox\file_44.txt,
+timeline,2026-11-17T12:18:02.370189,moved: D:\Projects\rdrs\data\sandbox\file_44.txt -> D:\Projects\rdrs\data\sandbox\file_44.locked,entropy=7.99
+timeline,2026-11-17T12:18:02.385303,modified: D:\Projects\rdrs\data\sandbox\file_45.txt,
+timeline,2026-11-17T12:18:02.703279,moved: D:\Projects\rdrs\data\sandbox\file_45.txt -> D:\Projects\rdrs\data\sandbox\file_45.locked,entropy=7.99
+timeline,2026-11-17T12:18:02.714999,modified: D:\Projects\rdrs\data\sandbox\file_46.txt,
+timeline,2026-11-17T12:18:03.022062,moved: D:\Projects\rdrs\data\sandbox\file_46.txt -> D:\Projects\rdrs\data\sandbox\file_46.locked,entropy=7.99
+timeline,2026-11-17T12:18:03.035671,modified: D:\Projects\rdrs\data\sandbox\file_47.txt,
+timeline,2026-11-17T12:18:03.343015,moved: D:\Projects\rdrs\data\sandbox\file_47.txt -> D:\Projects\rdrs\data\sandbox\file_47.locked,entropy=7.99
+timeline,2026-11-17T12:18:03.355959,modified: D:\Projects\rdrs\data\sandbox\file_48.txt,
+timeline,2026-11-17T12:18:03.662600,moved: D:\Projects\rdrs\data\sandbox\file_48.txt -> D:\Projects\rdrs\data\sandbox\file_48.locked,entropy=7.99
+timeline,2026-11-17T12:18:03.675517,modified: D:\Projects\rdrs\data\sandbox\file_49.txt,
+timeline,2026-11-17T12:18:03.993595,moved: D:\Projects\rdrs\data\sandbox\file_49.txt -> D:\Projects\rdrs\data\sandbox\file_49.locked,entropy=7.99
+timeline,2026-11-17T12:18:04.005195,modified: D:\Projects\rdrs\data\sandbox\file_5.txt,
+timeline,2026-11-17T12:18:04.323045,moved: D:\Projects\rdrs\data\sandbox\file_5.txt -> D:\Projects\rdrs\data\sandbox\file_5.locked,entropy=7.99
+timeline,2026-11-17T12:18:04.337276,modified: D:\Projects\rdrs\data\sandbox\file_6.txt,
+timeline,2026-11-17T12:18:04.657605,moved: D:\Projects\rdrs\data\sandbox\file_6.txt -> D:\Projects\rdrs\data\sandbox\file_6.locked,entropy=7.99
+timeline,2026-11-17T12:18:04.677255,modified: D:\Projects\rdrs\data\sandbox\file_7.txt,
+timeline,2026-11-17T12:18:04.984651,moved: D:\Projects\rdrs\data\sandbox\file_7.txt -> D:\Projects\rdrs\data\sandbox\file_7.locked,entropy=7.99
+timeline,2026-11-17T12:18:04.996736,modified: D:\Projects\rdrs\data\sandbox\file_8.txt,
+timeline,2026-11-17T12:18:05.322871,moved: D:\Projects\rdrs\data\sandbox\file_8.txt -> D:\Projects\rdrs\data\sandbox\file_8.locked,entropy=7.99
+timeline,2026-11-17T12:18:05.353151,modified: D:\Projects\rdrs\data\sandbox\file_9.txt,
+timeline,2026-11-17T12:18:05.670842,moved: D:\Projects\rdrs\data\sandbox\file_9.txt -> D:\Projects\rdrs\data\sandbox\file_9.locked,entropy=7.99
+recommendation,2026-11-17T12:17:51.990734,"Many files were changed within seconds. Check whether a backup, archive extraction or installer explains it; if not, isolate the machine.",
+recommendation,2026-11-17T12:17:51.990734,"Files were renamed in bulk, often with a new extension. Compare the new extensions with known ransomware extensions.",
+recommendation,2026-11-17T12:17:51.990734,"The most active program runs from a non-standard location. Verify its path, publisher and parent process.",
+recommendation,2026-11-17T12:17:51.990734,"Investigate the suspect process 'python.exe' (it is a best guess based on activity, not proof).",
+recommendation,2026-11-17T12:17:51.990734,Disconnect the affected machine from the network to stop any spread.,
+recommendation,2026-11-17T12:17:51.990734,Do not delete or modify the original files; the quarantine folder holds copies.,
+recommendation,2026-11-17T12:17:51.990734,Restore affected files from a clean backup after the cause is understood.,

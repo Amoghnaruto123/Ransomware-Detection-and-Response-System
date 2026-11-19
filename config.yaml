@@ -1,0 +1,28 @@
+app:
+  name: RDRS
+  simulation_mode: true
+monitor:
+  watch_paths:
+  - ./data/sandbox
+  window_seconds: 60
+thresholds:
+  files_modified_per_minute: 20
+  renames_per_minute: 15
+  extension_changes_per_minute: 10
+  avg_entropy: 7.0
+  cpu_percent: 80
+weights:
+  rapid_encryption: 40
+  mass_rename: 30
+  high_entropy: 25
+  cpu_spike: 15
+  unknown_program: 10
+levels:
+  warning: 40
+  critical: 70
+response:
+  terminate_process: false
+  quarantine_dir: ./data/quarantine
+paths:
+  database: ./data/rdrs.db
+  logs_dir: ./logs

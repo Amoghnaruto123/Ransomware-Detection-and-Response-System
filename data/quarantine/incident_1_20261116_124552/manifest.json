@@ -1,0 +1,22 @@
+{
+  "incident_id": 1,
+  "time": "2026-11-16T12:45:52.183150",
+  "score": 95,
+  "level": "Critical",
+  "signals": {
+    "rapid_encryption": 40,
+    "mass_rename": 30,
+    "high_entropy": 25
+  },
+  "suspect_process": "test.exe",
+  "affected_files": [
+    "D:\\Projects\\rdrs\\data\\sandbox\\v0.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\v1.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\v2.locked"
+  ],
+  "files_copied": [
+    "D:\\Projects\\rdrs\\data\\sandbox\\v0.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\v1.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\v2.locked"
+  ]
+}

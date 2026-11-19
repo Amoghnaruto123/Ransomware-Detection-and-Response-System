@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RDRS Dashboard</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  body { background: #0d1117; }
+  .card { background: #161b22; border-color: #30363d; }
+  .level { font-size: 2.8rem; font-weight: 700; line-height: 1; }
+  .Normal { color: #3fb950; } .Warning { color: #d29922; } .Critical { color: #f85149; }
+  .path { font-family: monospace; font-size: .82rem; word-break: break-all; }
+  .scroll { max-height: 260px; overflow-y: auto; }
+  canvas { max-height: 220px; }
+</style>
+</head>
+<body>
+<div class="container-fluid p-3">
+
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h4 class="m-0">RDRS <small class="text-secondary">Ransomware Detection &amp; Response</small></h4>
+    <div>
+      <span id="sim" class="badge text-bg-secondary me-2"></span>
+      <span id="updated" class="text-secondary small">connecting...</span>
+    </div>
+  </div>
+
+  <div class="row g-3 mb-3">
+    <div class="col-md-4">
+      <div class="card h-100"><div class="card-body">
+        <div class="text-secondary small">CURRENT THREAT LEVEL</div>
+        <div id="level" class="level Normal">--</div>
+        <div class="text-secondary">Score: <span id="score">0</span> / 100</div>
+      </div></div>
+    </div>
+    <div class="col-md-2 col-6"><div class="card h-100"><div class="card-body">
+      <div class="text-secondary small">EVENTS</div><div id="t-events" class="fs-2">0</div></div></div></div>
+    <div class="col-md-2 col-6"><div class="card h-100"><div class="card-body">
+      <div class="text-secondary small">ALERTS</div><div id="t-alerts" class="fs-2">0</div></div></div></div>
+    <div class="col-md-2 col-6"><div class="card h-100"><div class="card-body">
+      <div class="text-secondary small">INCIDENTS</div><div id="t-incidents" class="fs-2">0</div></div></div></div>
+    <div class="col-md-2 col-6"><div class="card h-100"><div class="card-body">
+      <div class="text-secondary small">LAST EVENT</div><div id="last" class="fs-6 mt-2">--</div></div></div></div>
+  </div>
+
+  <div class="row g-3 mb-3">
+    <div class="col-lg-6"><div class="card"><div class="card-body">
+      <h6>CPU: busiest processes (%)</h6><canvas id="cpu"></canvas></div></div></div>
+    <div class="col-lg-6"><div class="card"><div class="card-body">
+      <h6>Entropy of recent files (8 = looks encrypted)</h6><canvas id="ent"></canvas></div></div></div>
+  </div>
+
+  <div class="row g-3">
+    <div class="col-lg-6"><div class="card"><div class="card-body">
+      <h6>Recent alerts</h6>
+      <div class="scroll"><table class="table table-sm mb-0">
+        <thead><tr><th>Time</th><th>Level</th><th>Score</th><th>Signals</th></tr></thead>
+        <tbody id="alerts"></tbody></table></div>
+    </div></div></div>
+
+    <div class="col-lg-6"><div class="card"><div class="card-body">
+      <h6>Top modified files (last 200 events)</h6>
+      <div class="scroll"><table class="table table-sm mb-0">
+        <thead><tr><th>File</th><th>Changes</th></tr></thead>
+        <tbody id="top"></tbody></table></div>
+    </div></div></div>
+
+    <div class="col-12"><div class="card"><div class="card-body">
+      <h6>Recent events</h6>
+      <div class="scroll"><table class="table table-sm mb-0">
+        <thead><tr><th>Time</th><th>Type</th><th>File</th><th>Entropy</th></tr></thead>
+        <tbody id="events"></tbody></table></div>
+    </div></div></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+// File names come from the monitored disk, so always escape before inserting.
+const esc = s => String(s ?? "").replace(/[&<>"']/g,
+  c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const base = p => String(p ?? "").split(/[\\/]/).pop();
+const clock = ts => String(ts ?? "").slice(11, 19);
+const getJSON = async url => {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(url + " -> " + r.status);
+  return r.json();
+};
+
+const chartOpts = {
+  animation: false,
+  plugins: { legend: { display: false } },
+  scales: { x: { ticks: { color: "#8b949e" } },
+            y: { beginAtZero: true, ticks: { color: "#8b949e" } } }
+};
+let cpuChart = null, entChart = null;
+if (typeof Chart !== "undefined") {
+  cpuChart = new Chart($("cpu"), { type: "bar",
+    data: { labels: [], datasets: [{ data: [], backgroundColor: "#58a6ff" }] },
+    options: chartOpts });
+  entChart = new Chart($("ent"), { type: "line",
+    data: { labels: [], datasets: [{ data: [], borderColor: "#f85149", tension: .2, pointRadius: 2 }] },
+    options: { ...chartOpts, scales: { ...chartOpts.scales,
+      y: { min: 0, max: 8, ticks: { color: "#8b949e" } } } } });
+}
+
+async function refresh() {
+  try {
+    const [st, alerts, events, procs] = await Promise.all([
+      getJSON("/status"), getJSON("/alerts?limit=8"),
+      getJSON("/events?limit=200"), getJSON("/processes?limit=30")]);
+
+    $("level").textContent = st.threat_level;
+    $("level").className = "level " + st.threat_level;
+    $("score").textContent = st.threat_score;
+    $("sim").textContent = st.simulation_mode ? "SIMULATION MODE" : "LIVE MODE";
+    $("t-events").textContent = st.totals.events;
+    $("t-alerts").textContent = st.totals.alerts;
+    $("t-incidents").textContent = st.totals.incidents;
+    $("last").textContent = st.last_event_time ? st.last_event_time.replace("T", " ").slice(0, 19) : "none yet";
+
+    $("alerts").innerHTML = alerts.map(a =>
+      `<tr><td>${esc(clock(a.timestamp))}</td><td class="${esc(a.level)}">${esc(a.level)}</td>` +
+      `<td>${esc(a.score)}</td><td class="small">${esc(a.message.split("signals=")[1] || "")}</td></tr>`
+    ).join("") || '<tr><td colspan="4" class="text-secondary">No alerts</td></tr>';
+
+    $("events").innerHTML = events.slice(0, 15).map(e =>
+      `<tr><td>${esc(clock(e.timestamp))}</td><td>${esc(e.event_type)}</td>` +
+      `<td class="path">${esc(base(e.dest_path || e.path))}</td>` +
+      `<td>${e.entropy ?? "-"}</td></tr>`
+    ).join("") || '<tr><td colspan="4" class="text-secondary">No events</td></tr>';
+
+    const counts = {};
+    events.forEach(e => { const n = base(e.dest_path || e.path); counts[n] = (counts[n] || 0) + 1; });
+    $("top").innerHTML = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 6)
+      .map(([n, c]) => `<tr><td class="path">${esc(n)}</td><td>${c}</td></tr>`).join("")
+      || '<tr><td colspan="2" class="text-secondary">No events</td></tr>';
+
+    if (cpuChart) {
+      const top = procs.slice().sort((a, b) => b.cpu_percent - a.cpu_percent).slice(0, 8);
+      cpuChart.data.labels = top.map(p => `${p.name} (${p.pid})`);
+      cpuChart.data.datasets[0].data = top.map(p => p.cpu_percent);
+      cpuChart.update();
+      const ent = events.filter(e => e.entropy !== null).slice(0, 40).reverse();
+      entChart.data.labels = ent.map(e => clock(e.timestamp));
+      entChart.data.datasets[0].data = ent.map(e => e.entropy);
+      entChart.update();
+    }
+    $("updated").textContent = "updated " + new Date().toLocaleTimeString();
+  } catch (err) {
+    $("updated").textContent = "API unreachable: " + err.message;
+  }
+}
+refresh();
+setInterval(refresh, 3000);
+</script>
+</body>
+</html>

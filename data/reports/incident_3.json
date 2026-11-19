@@ -1,0 +1,1497 @@
+{
+  "incident_id": 3,
+  "generated_at": "2026-11-17T12:19:42.294426",
+  "detected_at": "2026-11-17T12:17:51.990734",
+  "threat_score": 80,
+  "threat_level": "Critical",
+  "status": "open",
+  "suspect_process": "python.exe",
+  "signals": {
+    "rapid_encryption": 40,
+    "mass_rename": 30,
+    "unknown_program": 10
+  },
+  "affected_files": [
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_0.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_1.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_10.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_11.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_12.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_13.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_14.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_15.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_16.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_17.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_18.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_19.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_2.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_20.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_21.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_22.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_23.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_24.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_25.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_26.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_27.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_28.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_29.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_3.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_30.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_31.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_32.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_33.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_34.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_35.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_36.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_37.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_38.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_39.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_4.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_40.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_41.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_42.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_43.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_44.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_45.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_46.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_47.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_48.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_49.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_5.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_6.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_7.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_8.txt",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_9.txt"
+  ],
+  "files_copied": [
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_0.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_1.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_10.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_11.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_12.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_13.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_14.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_15.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_16.locked",
+    "D:\\Projects\\rdrs\\data\\sandbox\\file_17.locked"
+  ],
+  "evidence_dir": "D:\\Projects\\rdrs\\data\\quarantine\\incident_3_20261117_121751",
+  "timeline": [
+    {
+      "time": "2026-11-17T12:17:45.400783",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_0.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.416221",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_0.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.422170",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_1.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.428259",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_1.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.433620",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_2.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.441333",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_2.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.446737",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_3.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.453890",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_3.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.459234",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_4.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.465311",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_4.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.471083",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_5.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.476955",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_5.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.482263",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_6.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.489666",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_6.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.494953",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_7.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.501322",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_7.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.506249",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_8.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.512085",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_8.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.517540",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_9.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.523654",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_9.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.529026",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_10.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.535845",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_10.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.540857",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_11.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.547543",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_11.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.552748",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_12.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.558896",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_12.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.564612",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_13.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.570658",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_13.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.577029",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_14.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.583698",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_14.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.588769",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_15.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.595635",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_15.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.600926",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_16.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.606847",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_16.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.612426",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_17.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.618343",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_17.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.623323",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_18.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.629922",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_18.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.635264",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_19.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.649218",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_19.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.654492",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_20.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.661687",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_20.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.667371",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_21.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.674233",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_21.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.679799",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_22.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.686034",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_22.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.692172",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_23.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.698281",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_23.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.704342",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_24.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.710623",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_24.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.716619",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_25.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.723461",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_25.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.729158",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_26.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.736494",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_26.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.742607",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_27.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.750300",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_27.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.755624",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_28.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.761909",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_28.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.767705",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_29.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.774465",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_29.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.780647",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_30.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.787161",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_30.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.792878",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_31.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.799558",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_31.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.805081",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_32.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.811381",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_32.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.816819",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_33.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.822919",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_33.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.828814",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_34.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.835092",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_34.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.840940",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_35.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.847556",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_35.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.853286",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_36.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.860589",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_36.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.866606",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_37.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.874299",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_37.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.880040",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_38.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.886675",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_38.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.893361",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_39.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.900199",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_39.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.906347",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_40.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.913077",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_40.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.918961",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_41.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.926465",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_41.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.931999",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_42.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.938405",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_42.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.943029",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_43.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.948678",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_43.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.954439",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_44.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.960656",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_44.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.966267",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_45.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.972412",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_45.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.977089",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_46.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.983558",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_46.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.988464",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_47.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.994579",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_47.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:45.999992",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_48.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:46.005881",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_48.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:46.011447",
+      "event_type": "created",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_49.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:46.018345",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_49.txt",
+      "dest_path": null,
+      "entropy": 3.41
+    },
+    {
+      "time": "2026-11-17T12:17:48.421652",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_0.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:48.728253",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_0.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:49.034683",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_0.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_0.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:49.045383",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_1.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:49.352626",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_1.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_1.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:49.365341",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_10.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:49.672902",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_10.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_10.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:49.686465",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_11.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:49.992804",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_11.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_11.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:50.006221",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_12.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:50.312948",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_12.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_12.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:50.325603",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_13.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:50.643194",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_13.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_13.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:50.655634",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_14.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:50.979017",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_14.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_14.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:50.998536",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_15.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:51.315686",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_15.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_15.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:51.329857",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_16.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:51.651795",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_16.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_16.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:51.669443",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_17.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:51.977298",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_17.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_17.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:52.019076",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_18.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:52.337413",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_18.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_18.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:52.350991",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_19.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:52.668213",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_19.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_19.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:52.681113",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_2.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:52.998806",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_2.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_2.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:53.012098",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_20.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:53.330278",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_20.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_20.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:53.343478",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_21.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:53.661160",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_21.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_21.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:53.672667",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_22.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:54.017053",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_22.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_22.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:54.140036",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_23.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:54.525030",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_23.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_23.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:54.536822",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_24.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:54.854298",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_24.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_24.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:54.866239",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_25.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:55.310041",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_25.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_25.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:55.436566",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_26.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:55.808387",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_26.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_26.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:55.822256",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_27.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:56.141280",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_27.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_27.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:56.153409",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_28.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:56.471574",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_28.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_28.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:56.484796",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_29.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:56.791448",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_29.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_29.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:56.803987",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_3.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:57.123147",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_3.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_3.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:57.140324",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_30.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:57.458831",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_30.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_30.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:57.471744",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_31.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:57.779433",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_31.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_31.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:57.791012",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_32.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:58.116986",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_32.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_32.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:58.143107",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_33.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:58.450963",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_33.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_33.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:58.463587",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_34.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:58.771702",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_34.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_34.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:58.784984",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_35.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:59.102919",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_35.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_35.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:59.114298",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_36.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:59.422072",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_36.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_36.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:59.435797",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_37.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:17:59.754441",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_37.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_37.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:17:59.766014",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_38.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:00.085700",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_38.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_38.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:00.100885",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_39.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:00.418547",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_39.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_39.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:00.430332",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_4.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:00.737284",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_4.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_4.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:00.749869",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_40.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:01.059243",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_40.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_40.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:01.073029",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_41.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:01.390664",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_41.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_41.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:01.402667",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_42.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:01.726991",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_42.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_42.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:01.741604",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_43.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:02.049132",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_43.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_43.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:02.062102",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_44.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:02.370189",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_44.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_44.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:02.385303",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_45.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:02.703279",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_45.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_45.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:02.714999",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_46.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:03.022062",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_46.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_46.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:03.035671",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_47.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:03.343015",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_47.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_47.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:03.355959",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_48.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:03.662600",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_48.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_48.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:03.675517",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_49.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:03.993595",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_49.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_49.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:04.005195",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_5.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:04.323045",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_5.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_5.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:04.337276",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_6.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:04.657605",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_6.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_6.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:04.677255",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_7.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:04.984651",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_7.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_7.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:04.996736",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_8.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:05.322871",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_8.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_8.locked",
+      "entropy": 7.99
+    },
+    {
+      "time": "2026-11-17T12:18:05.353151",
+      "event_type": "modified",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_9.txt",
+      "dest_path": null,
+      "entropy": null
+    },
+    {
+      "time": "2026-11-17T12:18:05.670842",
+      "event_type": "moved",
+      "path": "D:\\Projects\\rdrs\\data\\sandbox\\file_9.txt",
+      "dest_path": "D:\\Projects\\rdrs\\data\\sandbox\\file_9.locked",
+      "entropy": 7.99
+    }
+  ],
+  "recommendations": [
+    "Many files were changed within seconds. Check whether a backup, archive extraction or installer explains it; if not, isolate the machine.",
+    "Files were renamed in bulk, often with a new extension. Compare the new extensions with known ransomware extensions.",
+    "The most active program runs from a non-standard location. Verify its path, publisher and parent process.",
+    "Investigate the suspect process 'python.exe' (it is a best guess based on activity, not proof).",
+    "Disconnect the affected machine from the network to stop any spread.",
+    "Do not delete or modify the original files; the quarantine folder holds copies.",
+    "Restore affected files from a clean backup after the cause is understood."
+  ]
+}
